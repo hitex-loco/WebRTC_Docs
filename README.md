@@ -26,3 +26,13 @@ WebRTC is designed to work peer-to-peer, so users can connect by the most direct
 # WebRTC Architecture :
 
 ![](./wrtc_arch.png)
+
+# Yes, WebRTC is peer to peer but it also needs servers!
+
+## WebRTC needs four types of server-side functionality :
+	User discovery and communication.
+	Signaling.
+	NAT/firewall traversal.
+	Relay servers in case peer-to-peer communication fails.
+
+![](./stun.png)
